@@ -18,3 +18,24 @@ a{
   line-height: 1;
   cursor: pointer;
 }
+.btn{
+    padding: 8px 16px;
+    background-color: #ffffff;
+    color: #28270e;
+   padding: 14px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn img{
+    width: 20px;
+    margin-left: 15px;
+}
