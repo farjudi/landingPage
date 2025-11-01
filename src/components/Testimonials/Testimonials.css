@@ -13,7 +13,7 @@
     transform: translateY(-50%);
     padding: 15px;
     width: 50px;
-z-index: 100;
+    z-index: 100;
     border-radius: 50%;
     cursor: pointer;
    background: #212EA0;

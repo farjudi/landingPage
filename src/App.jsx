@@ -23,6 +23,7 @@ function App() {
       <Environment/>
         <Title  subTitle='Testimonials' title='what Student Says'/>
         <Testimonials/>
+          <Title  subTitle='Contact Us ' title='Get in Touch'/>
     </div>
   );  
 }
