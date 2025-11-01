@@ -6,7 +6,7 @@ import Title from "./components/Title/Title.jsx";
 import About from "./components/About/About.jsx";
 import Environment from "./components/Environment/Environment.jsx";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
-
+import Contact from "./components/Contact/Contact.jsx"
 function App() {
     console.log("App rendered"); 
   return (
@@ -24,6 +24,7 @@ function App() {
         <Title  subTitle='Testimonials' title='what Student Says'/>
         <Testimonials/>
           <Title  subTitle='Contact Us ' title='Get in Touch'/>
+          <Contact/>
     </div>
   );  
 }
