@@ -58,7 +58,7 @@ const [result, setResult] = React.useState("");
              <input type="text" placeholder="Enter your phone number"  name='phone' required/>
               <label >Write Your Message here</label>
               <textarea placeholder="Enter your message" name='message' rows="6" required></textarea>
-              <button type="submit" className='btn dark-btn'>submit now</button>
+              <button type="submit" className='btn dark-btn'>ارسال</button>
         </form>
         <span >{result}</span>
         </div>     

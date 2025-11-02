@@ -7,6 +7,7 @@ import About from "./components/About/About.jsx";
 import Environment from "./components/Environment/Environment.jsx";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
 import Contact from "./components/Contact/Contact.jsx"
+import Footer from "./components/Footer/Footer.jsx";
 function App() {
     console.log("App rendered"); 
   return (
@@ -25,6 +26,7 @@ function App() {
         <Testimonials/>
           <Title  subTitle='Contact Us ' title='Get in Touch'/>
           <Contact/>
+        <Footer/>
     </div>
   );  
 }
